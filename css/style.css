@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before *,*::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+
+    min-width: 740px;
+    min-height: 740px;
+       background-image: url(../image/idk.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+.header_title {
+    padding-top: 20px;
+    margin-bottom: 111px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color:rebeccapurple;
+}
+nav{
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.logo{
+    position: relative;
+    top: 20px;
+    left: 50px;
+  }
+
+
